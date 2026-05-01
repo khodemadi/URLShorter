@@ -1,0 +1,93 @@
+body{
+    background-image: url(../img/sea.jpg);
+    background-size: cover;
+}
+ 
+.active{
+    display: block !important;
+}
+ 
+#url-inp{
+    transition: 0.3s all;
+    width: 40%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+ 
+#url-inp:focus{
+    width: 50%;
+    border: 1px solid #000;
+}
+ 
+#submit{
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+ 
+#submit:hover{
+    background-color: #137dd3;
+}
+ 
+.msg{
+    background-color: silver;
+    color: #000;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 5px 35px;
+    margin: 15px auto;
+    font-weight: bold;
+}
+ 
+.msg.warning{
+    background-color: #ffa500;
+}
+ 
+.msg.success{
+    background-color: #3f51b5;
+    color: white;
+}
+ 
+#statistics{
+    font-weight: bold;
+    background-color: rgb(255 255 255 / 79%);
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 25%;
+}
+ 
+#statistics td{
+    padding: 12px;
+}
+ 
+.short-link-wrapper{
+    display: none;
+}
+ 
+#short-link-copy{
+    margin-top: 50px;
+    font-size: 24px;
+    background-color: #4caf50;
+    border: 3px #fff solid;
+    outline: none;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+ 
+.short-link-wrapper button{
+    height: 25px;
+}
+ 
+.short-link-wrapper button img{
+    width: 15px;
+}
